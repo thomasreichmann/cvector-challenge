@@ -2,6 +2,8 @@
 
 ## Virtual Energy Trading Platform - Key Design Decisions
 
+🚀 **Live Demo**: [cvector.thomasar.dev](https://cvector.thomasar.dev)
+
 ### 1. Why Next.js-Only Architecture (No Separate Backend)
 
 **Decision**: Use Next.js App Router with API routes instead of a separate FastAPI/Express backend.

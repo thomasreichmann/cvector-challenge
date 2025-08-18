@@ -2,6 +2,8 @@
 
 A complete ERCOT day-ahead and real-time energy trading simulation platform built with Next.js, TypeScript, and Arco Design.
 
+🚀 **Live Demo**: [cvector.thomasar.dev](https://cvector.thomasar.dev)
+
 ## Overview
 
 This application enables virtual energy trading for the ERCOT market, allowing users to:
@@ -83,6 +85,10 @@ This application enables virtual energy trading for the ERCOT market, allowing u
 5. **Open the application**
 
    Navigate to [http://localhost:3000](http://localhost:3000) (or port shown in terminal output)
+
+## Live Demo
+
+The application is deployed and accessible at: **[cvector.thomasar.dev](https://cvector.thomasar.dev)**
 
 ## Usage Guide
 
@@ -197,6 +203,8 @@ pnpm typecheck
 ## Deployment
 
 ### Vercel (Recommended)
+
+**Live deployment**: [cvector.thomasar.dev](https://cvector.thomasar.dev)
 
 1. Connect repository to Vercel
 2. Add `GRIDSTATUS_API_KEY` environment variable
