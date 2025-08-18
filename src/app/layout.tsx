@@ -8,7 +8,22 @@ import { Providers } from "~/components/Providers";
 export const metadata: Metadata = {
   title: "Virtual Energy Trading Platform",
   description: "ERCOT day-ahead and real-time energy trading simulation",
-  icons: [{ rel: "icon", url: "/favicon.ico" }],
+  icons: [
+    { rel: "icon", url: "/favicon.ico" },
+    {
+      rel: "icon",
+      url: "/favicon-16x16.svg",
+      sizes: "16x16",
+      type: "image/svg+xml",
+    },
+    {
+      rel: "icon",
+      url: "/favicon-32x32.svg",
+      sizes: "32x32",
+      type: "image/svg+xml",
+    },
+    { rel: "apple-touch-icon", url: "/icon.svg", sizes: "180x180" },
+  ],
 };
 
 const geist = Geist({
